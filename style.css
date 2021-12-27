@@ -148,9 +148,16 @@ li:hover .elementNavigation {
   list-style-type: none;
 }
 
-.imgProfileSearch {
-  width: 30px;
-  height: 30px;
+.cursor {
+  cursor: pointer;
+}
+
+.fa-search {
+  transition: 0.5s linear;
+}
+
+.fa-search:hover {
+  color: #5096b1;
 }
 /**/ /**/
 /* main*/
