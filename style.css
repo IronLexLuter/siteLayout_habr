@@ -230,17 +230,26 @@ li:hover .elementNavigation {
   float: right;
   align-items: center;
   position: relative;
-  top: 3px;
+  top: 0px;
 }
 
 .navigation-allStreams-menu {
   display: flex;
 }
 
-.f {
+.navigation-allStreams-menu-button {
+  align-items: center;
+}
+
+.rss {
   padding: 12px 20px;
-  margin: none;
+  /* margin: none;*/
   border: none;
   background: white;
   cursor: pointer;
+}
+
+.fas {
+  font-size: 25px;
+  color: #929ca5;
 }
