@@ -242,6 +242,7 @@ li:hover .elementNavigation {
 
 .navigation-allStreams-menu {
   display: flex;
+  margin-bottom: 12px;
 }
 
 .navigation-allStreams-menu-button {
@@ -259,4 +260,53 @@ li:hover .elementNavigation {
 .fas {
   font-size: 25px;
   color: #929ca5;
+}
+
+/*нвостной блок*/
+
+.main-news {
+  padding: 16px 20px;
+  margin-bottom: 12px;
+}
+
+.main-news-timeNicknameImg {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.main-news-timeNickname {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.newsTime {
+  color: #777;
+  font-size: 15px;
+}
+
+.news-publisher-name {
+  color: black;
+}
+
+.newsHeadline {
+  margin: 0 0;
+}
+
+.newsHeadline-link {
+  text-decoration: none;
+  color: black;
+  transition: 0.3s linear;
+  transition-delay: 0.2s;
+}
+
+.newsHeadline-link:hover {
+  color: #5096b1;
+}
+
+.itemHubs {
+  margin: none;
+  padding: none;
 }
