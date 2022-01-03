@@ -343,3 +343,54 @@ li:hover .elementNavigation {
 .readMore-delay {
   transition-delay: 0.1s;
 }
+
+/*футер*/
+
+.footer-menu {
+  background: #2c3135;
+}
+
+.footer-menu-block {
+  padding: 0 24px;
+  max-width: 1096px;
+  min-width: 320px;
+}
+
+.footer-menu-blockInformation {
+  display: flex;
+  color: white;
+  justify-content: space-around;
+}
+
+.subtitleFooter {
+  font-size: 18px;
+  border-bottom: 1px solid rgb(105, 105, 105);
+  padding-bottom: 10px;
+}
+
+.accountFooter-list {
+    list-style-type: none;
+    padding: 0 0;
+}
+
+.elmFooter {
+  color: white;
+}
+
+.link-accountFooter {
+  text-decoration: none;
+  color: white;
+  transition: 0.2s linear;
+
+}
+
+.accountFooter-list-part {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+/*анимация списка footer*/
+
+.link-accountFooter:hover {
+  color:#487284;
+}
