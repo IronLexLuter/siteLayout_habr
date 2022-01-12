@@ -352,14 +352,15 @@ li:hover .elementNavigation {
 
 .footer-menu-block {
   padding: 0 24px;
-  max-width: 1096px;
+  /*max-width: 1096px;*/
   min-width: 320px;
+  margin: 0 0 0 0;
 }
 
 .footer-menu-blockInformation {
   display: flex;
   color: white;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .subtitleFooter {
@@ -369,8 +370,8 @@ li:hover .elementNavigation {
 }
 
 .accountFooter-list {
-    list-style-type: none;
-    padding: 0 0;
+  list-style-type: none;
+  padding: 0 0;
 }
 
 .elmFooter {
@@ -381,7 +382,6 @@ li:hover .elementNavigation {
   text-decoration: none;
   color: white;
   transition: 0.2s linear;
-
 }
 
 .accountFooter-list-part {
@@ -392,5 +392,5 @@ li:hover .elementNavigation {
 /*анимация списка footer*/
 
 .link-accountFooter:hover {
-  color:#487284;
+  color: #487284;
 }
